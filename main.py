@@ -2,7 +2,6 @@ import cv2
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
 from ultralytics.utils.plotting import Annotator
-from typing import cast
 
 cap = cv2.VideoCapture('./test.mp4')
 
